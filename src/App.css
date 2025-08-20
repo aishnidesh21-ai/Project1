@@ -1,0 +1,79 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-container {
+  flex: 1;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+  min-height: 70vh;
+}
+
+footer,
+header,
+.navbar {
+  width: 100%;
+}
+
+.card {
+  padding: 2rem;
+}
+
+button {
+  border-radius: 8px;
+}
+
+
+
+.footer {
+  color: #343a40; /* Dark text for contrast */
+  margin-top: auto;
+}
+
+/* 🔹 Top section: social links */
+.footer section {
+  background-color: #f8f9fa; /* Lightest gray */
+}
+
+/* 🔸 Middle section: main info and links */
+.footer .container {
+  background-color: #e9ecef; /* Light gray */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* ⚫ Bottom copyright bar */
+.footer .copyright-bar {
+  background-color: #343a40; /* Dark gray */
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+/* 🔗 Links */
+.footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #0d6efd;
+}
+
+/* 🔠 Headings */
+.footer h6 {
+  color: #000;
+}
+
+
