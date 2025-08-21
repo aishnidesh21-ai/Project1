@@ -10,7 +10,7 @@ function StudentDashboard() {
   const [toast, setToast] = useState("");
   const [toastTrigger, setToastTrigger] = useState(0);
 
-  const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+  const apiUrl = import.meta.env.VITE_API_URL || "https://project1backend-x8lb.onrender.com/api";
 
   useEffect(() => {
     const fetch = async () => {
