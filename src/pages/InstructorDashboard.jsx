@@ -33,7 +33,7 @@ function InstructorDashboard() {
     },
   };
 
-  const apiUrl = import.meta.env.VITE_API_URL || "https://project1backend-x8lb.onrender.com/api";
+  const apiUrl = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
 
   const fetchCourses = async () => {
     try {
